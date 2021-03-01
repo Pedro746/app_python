@@ -34,6 +34,8 @@ while True:
             print(apt_s)
         elif idade > 18 and sexo == 'M' and exame == 'S':
             print(ref, apt_s)
+        elif sexo != 'M':
+            print(apt_n)
 
     parar = input('PARAR? [S]im [N]ao').upper()
     if parar == 'S':
